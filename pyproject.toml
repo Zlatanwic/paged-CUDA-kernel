@@ -5,6 +5,7 @@ description = "Block-Gather CUDA Kernel for Paged KV Cache Access in LLM Decodin
 requires-python = ">=3.14"
 dependencies = [
     "matplotlib>=3.10.8",
+    "ninja>=1.13.0",
     "torch",
 ]
 
