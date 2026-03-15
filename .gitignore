@@ -1,0 +1,37 @@
+# Python                                                                                                                              __pycache__/                                                                                                                      
+*.py[cod]                                                                                                                         
+*.so                                                                                                                                  *.egg-info/                                                                                                                           dist/                                                                                                                                 build/                                                                                                                                                                                                                                                                      # uv / venv                                                                                                                           .venv/                                                                                                                            
+uv.lock
+
+# CUDA build artifacts
+*.o
+*.obj
+*.exp
+*.lib
+*.pdb
+*.exe
+*.cubin
+*.fatbin
+*.ptx
+# PyTorch C++ extension build
+*.egg
+*.eggs
+# Profiling outputs
+profile/*.nsys-rep
+profile/*.ncu-rep
+profile/*.sqlite
+# Plots (optional - you may want to keep these)
+# plots/*.png
+# Benchmark data (optional - you may want to keep these)
+# benchmark/*.csv
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+# Misc
+*.log
